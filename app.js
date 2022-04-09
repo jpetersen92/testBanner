@@ -25,9 +25,16 @@ gsap.from('#rae', {
     delay: 1
 })
 
-gsap.from('button', {
+
+gsap.from('.button', {
     duration: 1,
     y: 100,
     opacity: 0,
     delay: 2
+})
+
+gsap.from('.sides', {
+    duration: 2,
+    opacity: 0,
+    delay: 3
 })
